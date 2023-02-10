@@ -1,6 +1,6 @@
+ 
 import { CountUp } from "countup.js";
 import { useEffect, useRef, useState } from "react";
-
 function easeInOutCubic(elapsed, initialValue, amountOfChange, duration) {
   if ((elapsed /= duration / 2) < 1) {
     return (amountOfChange / 2) * elapsed * elapsed * elapsed + initialValue;
